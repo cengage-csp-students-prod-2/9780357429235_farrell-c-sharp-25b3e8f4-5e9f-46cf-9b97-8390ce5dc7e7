@@ -3,6 +3,6 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("This is a simple task.");
+        Console.WriteLine("This is a simple activity.");
     }
 }
