@@ -1,9 +1,9 @@
 // This is the code editor
 using System;
-class Example
+class Program
 {
-    static void Main()
+    static void Main(string[] args)
     {
-        Console.WriteLine("This is the code editor.");
+        Console.WriteLine("This is a simple activity.");
     }
 }
