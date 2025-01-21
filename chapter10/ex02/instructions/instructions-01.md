@@ -1,0 +1,1 @@
+**Task #01:** `Photo` `class` properly implements the `ToString()` method

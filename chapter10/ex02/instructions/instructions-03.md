@@ -1,0 +1,1 @@
+**Task #03:** `FramedPhoto` `class` properly implements the `ToString()` method

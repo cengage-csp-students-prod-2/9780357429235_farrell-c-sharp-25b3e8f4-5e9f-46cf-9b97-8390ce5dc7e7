@@ -1,0 +1,1 @@
+**Task #03:** `ComputeRevenue` method returns total expected revenue

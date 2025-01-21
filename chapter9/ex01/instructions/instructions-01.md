@@ -1,0 +1,1 @@
+**Task #01:** `SoccerPlayer` class defined correctly

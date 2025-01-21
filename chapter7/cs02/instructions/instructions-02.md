@@ -1,0 +1,1 @@
+**Task #02:** `GetNumMurals` method returns the number of mural input

@@ -1,0 +1,1 @@
+**Task #01:** The `Room` class calculates and returns its area

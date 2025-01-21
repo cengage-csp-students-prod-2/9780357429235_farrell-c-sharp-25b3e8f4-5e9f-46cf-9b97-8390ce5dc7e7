@@ -1,0 +1,1 @@
+**Task #01:** `Conference` class defined correctly

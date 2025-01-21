@@ -1,0 +1,1 @@
+**Task #04:** `GetContestantData` method accepts input for contestants and talents

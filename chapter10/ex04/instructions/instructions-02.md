@@ -1,0 +1,1 @@
+**Task #02:** `SpecialCookieOrder` class inherits from `CookieOrder`

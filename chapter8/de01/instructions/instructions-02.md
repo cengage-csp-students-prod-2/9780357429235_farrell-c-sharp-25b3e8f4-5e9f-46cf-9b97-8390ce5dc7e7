@@ -1,0 +1,1 @@
+**Task #02:** Method `GetData` prompts for and stores order number and quantity

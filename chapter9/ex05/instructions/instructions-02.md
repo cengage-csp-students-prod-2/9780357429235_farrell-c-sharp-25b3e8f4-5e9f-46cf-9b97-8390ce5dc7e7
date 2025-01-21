@@ -1,0 +1,1 @@
+**Task #02:** The `Car` class can be initialized and returns the miles per gallon of the car

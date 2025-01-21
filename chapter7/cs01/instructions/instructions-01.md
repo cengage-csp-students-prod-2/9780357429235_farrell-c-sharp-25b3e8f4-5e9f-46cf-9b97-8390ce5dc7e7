@@ -1,0 +1,1 @@
+**Task #01:** `GetContestantNumber` method prompt for and returns number of contestants

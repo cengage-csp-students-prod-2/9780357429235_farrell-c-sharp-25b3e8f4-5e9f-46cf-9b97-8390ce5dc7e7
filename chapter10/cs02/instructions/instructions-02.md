@@ -1,0 +1,1 @@
+**Task #02:** Subclasses created from base class `Mural`

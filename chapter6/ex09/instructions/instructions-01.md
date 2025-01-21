@@ -1,0 +1,1 @@
+**Task #01:** Use arrays for store salesperson names, initials, and accumulated sales values

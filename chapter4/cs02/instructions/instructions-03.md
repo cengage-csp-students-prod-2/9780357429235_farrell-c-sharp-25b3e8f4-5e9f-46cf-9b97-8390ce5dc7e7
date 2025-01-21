@@ -1,0 +1,1 @@
+**Task #03:** Interior murals discounted in July and August

@@ -1,0 +1,1 @@
+**Task #04:** Program terminates when 4 is input

@@ -1,0 +1,1 @@
+**Task #02:** Program correctly handles invalid mural code input

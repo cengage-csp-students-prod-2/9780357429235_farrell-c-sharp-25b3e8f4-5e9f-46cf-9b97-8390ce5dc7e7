@@ -1,0 +1,1 @@
+**Task #02:** Method `DisplayFine` displays fine in correct format

@@ -1,0 +1,1 @@
+**Task #02:** `MattedPhoto` `class` properly implements the `ToString()` method

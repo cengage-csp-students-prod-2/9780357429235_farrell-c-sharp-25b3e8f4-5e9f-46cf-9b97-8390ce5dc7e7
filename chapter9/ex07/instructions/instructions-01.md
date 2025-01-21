@@ -1,0 +1,1 @@
+**Task #01:** `Shirt` class defined

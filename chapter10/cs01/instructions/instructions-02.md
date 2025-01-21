@@ -1,0 +1,1 @@
+**Task #02:** Create 3 subclasses from base class `Contestant`

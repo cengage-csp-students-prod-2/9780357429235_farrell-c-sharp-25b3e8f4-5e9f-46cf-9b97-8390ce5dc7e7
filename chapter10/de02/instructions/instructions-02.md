@@ -1,0 +1,1 @@
+**Task #02:** Fixed bug(s) in all classes

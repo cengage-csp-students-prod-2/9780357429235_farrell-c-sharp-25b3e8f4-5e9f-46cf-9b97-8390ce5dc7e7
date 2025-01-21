@@ -1,0 +1,1 @@
+**Task #01:** Fix errors so the numbers and their average is output

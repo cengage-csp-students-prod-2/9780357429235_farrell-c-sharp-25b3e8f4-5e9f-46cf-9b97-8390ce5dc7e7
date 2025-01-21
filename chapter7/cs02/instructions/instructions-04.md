@@ -1,0 +1,1 @@
+**Task #04:** `DataEntry` method accepts customer names and mural types

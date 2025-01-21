@@ -1,0 +1,1 @@
+**Task #01:** `Average` method averages any number of parameters

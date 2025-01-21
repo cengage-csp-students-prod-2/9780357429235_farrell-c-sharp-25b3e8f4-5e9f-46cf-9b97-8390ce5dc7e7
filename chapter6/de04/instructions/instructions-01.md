@@ -1,0 +1,1 @@
+**Task #01:** Fix all errors so the program prints the inputs and average

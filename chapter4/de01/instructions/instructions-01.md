@@ -1,0 +1,1 @@
+**Task #01:** Calculates correct price of hot dog

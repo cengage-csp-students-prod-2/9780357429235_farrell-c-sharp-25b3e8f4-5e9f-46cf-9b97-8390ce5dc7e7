@@ -1,0 +1,1 @@
+**Task #05:** `GetSelectedMurals` method displays customer name and job type

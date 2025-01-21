@@ -1,0 +1,1 @@
+**Task #02:** Exterior Mural discounted in April, May, September, and October

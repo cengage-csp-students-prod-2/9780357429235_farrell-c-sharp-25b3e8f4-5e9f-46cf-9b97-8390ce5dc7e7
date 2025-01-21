@@ -1,0 +1,1 @@
+**Task #01:** Method `DisplayAndSum` displays the number and their sum

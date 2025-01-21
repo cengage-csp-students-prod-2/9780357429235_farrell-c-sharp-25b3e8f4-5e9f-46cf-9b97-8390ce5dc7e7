@@ -1,0 +1,78 @@
+# Directories #
+[Bb]in/
+[Oo]bj/
+[Ll]ogs/
+[Pp]ackages/
+[Tt]est[Rr]esults/
+
+# Files #
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio 2015/2017 cache/options directory #
+.vs/
+
+# Rider #
+.idea/
+
+# Build Results of an MSBuild Project #
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# ReSharper #
+_ReSharper*/
+*.[Rr]es[Ss]harper
+
+# TeamCity #
+_TeamCity*
+
+# DotCover is a Code Coverage Tool #
+*.dotCover
+
+# NCrunch #
+_NCrunch_*
+.*crunch*.local.xml
+
+# MightyMoose #
+autoTest.Net/
+
+# Visual Studio Code #
+.vscode/
+
+# StyleCop #
+StyleCopReport.xml
+
+# Others #
+*.dbmdl
+*.dbproj.schemaview
+*.pfx
+*.publishsettings
+orleans.codegen.cs
+
+# Including strong name files can present a security risk #
+# (do not include these files in public repositories) #
+*.snk
+
+# Since there are multiple workflows, uncomment next line to ignore bower_components #
+# (https://bower.io/) #
+#bower_components/
+
+# Depending on your project, you may want to ignore these files #
+*.pidb
+*.svclog
+*.mdf
+*.ldf
+*.kproj
+*.userprefs
+*.csproj.user
+*.csproj
+*.pubxml
+*.pubxml.user
+*.log
+*.vspscc
+*.vssscc
+*.lsproj
+*.pidb
+*.scc

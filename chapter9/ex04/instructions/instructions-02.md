@@ -1,0 +1,1 @@
+**Task #02:** The `Room` class calculates and returns the number of gallons required to paint the room

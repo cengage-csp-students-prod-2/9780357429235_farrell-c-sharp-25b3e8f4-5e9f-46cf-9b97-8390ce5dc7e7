@@ -1,0 +1,1 @@
+**Task #01:** Fix errors so the program print the items for sale

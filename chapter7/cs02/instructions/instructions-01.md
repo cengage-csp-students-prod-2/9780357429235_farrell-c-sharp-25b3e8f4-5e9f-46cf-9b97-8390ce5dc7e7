@@ -1,0 +1,1 @@
+**Task #01:** `GetMonth` methods returns the input month

@@ -1,0 +1,1 @@
+**Task #03:** Overload the `++` operator for `Car` class

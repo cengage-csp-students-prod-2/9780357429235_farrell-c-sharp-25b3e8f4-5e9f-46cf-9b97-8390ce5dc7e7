@@ -1,0 +1,1 @@
+**Task #02:** Method `CalculateTuition` returns correct tuition

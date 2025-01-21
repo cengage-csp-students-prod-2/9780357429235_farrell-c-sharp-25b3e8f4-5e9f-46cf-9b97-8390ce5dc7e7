@@ -1,0 +1,1 @@
+**Task #04:** The `FracString()` method returns the fraction in `string` format

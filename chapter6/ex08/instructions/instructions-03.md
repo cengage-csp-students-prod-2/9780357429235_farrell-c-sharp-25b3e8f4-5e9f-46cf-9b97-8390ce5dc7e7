@@ -1,0 +1,1 @@
+**Task #03:** Correct pricing for five, six, or seven nights

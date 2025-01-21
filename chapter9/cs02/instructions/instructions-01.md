@@ -1,0 +1,1 @@
+**Task #01:** `Mural` class defined

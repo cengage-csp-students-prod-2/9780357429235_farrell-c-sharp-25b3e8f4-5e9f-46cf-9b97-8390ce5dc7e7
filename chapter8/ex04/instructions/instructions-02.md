@@ -1,0 +1,1 @@
+**Task #02:** Bids less than $10 are not accepted

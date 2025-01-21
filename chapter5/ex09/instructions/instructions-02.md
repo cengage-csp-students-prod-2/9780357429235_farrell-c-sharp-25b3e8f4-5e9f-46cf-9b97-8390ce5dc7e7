@@ -1,0 +1,1 @@
+**Task #02:** The expected output is not hard coded into the program

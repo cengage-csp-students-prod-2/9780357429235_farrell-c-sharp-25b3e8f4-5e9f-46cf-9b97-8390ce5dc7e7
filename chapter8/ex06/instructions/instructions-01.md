@@ -1,0 +1,1 @@
+**Task #01:** Method `DataEntry` is defined to eliminate repetitive code

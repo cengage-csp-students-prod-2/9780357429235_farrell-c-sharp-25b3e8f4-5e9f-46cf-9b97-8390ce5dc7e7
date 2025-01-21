@@ -1,0 +1,3 @@
+Using your code from _Programming Exercise 3C_, modify the program `FindPatientRecords` program so that it prompts the user for a minimum balance due, reads the file **Patients.txt**, provided for you, and displays all the records containing a balance greater than or equal to the entered value.
+
+> In order to prepend the _$_ to currency values, the program will need to use the `CultureInfo.GetCultureInfo` method. In order to do this, include the statement `using System.Globalization;` at the top of your program and format the output statements as follows: `WriteLine("This is an example:  {0}", value.ToString("C", CultureInfo.GetCultureInfo("en-US")));`

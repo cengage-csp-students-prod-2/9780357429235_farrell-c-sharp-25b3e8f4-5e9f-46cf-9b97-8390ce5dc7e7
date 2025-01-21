@@ -1,0 +1,1 @@
+**Task #02:** 4% raise stored as constant

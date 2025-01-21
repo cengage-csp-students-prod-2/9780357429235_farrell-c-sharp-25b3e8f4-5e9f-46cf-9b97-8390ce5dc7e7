@@ -1,0 +1,1 @@
+**Task #03:** `Main()` method displays statistics

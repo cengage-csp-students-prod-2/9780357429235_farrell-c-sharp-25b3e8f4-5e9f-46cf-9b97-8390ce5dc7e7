@@ -1,0 +1,1 @@
+**Task #02:** Program identifies when temperature is getting cooler
