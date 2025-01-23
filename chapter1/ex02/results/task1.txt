@@ -1,0 +1,12 @@
+
+Status: FAILED!
+Check: 1
+Test: Checks for correct use of `WriteLine` (4x)
+Reason: Unable to find '
+      WriteLine("Somewhere over the rainbow");
+      WriteLine("Way up high");
+      WriteLine("There's a land that I heard of");
+      WriteLine("Once in a lullabye");
+   ' in the program. 
+Error : str - AssertionError
+Timestamp: 2025-01-23 06:12:58.502487
