@@ -3,25 +3,25 @@ Status: PASSED!
 Check: 1
 Test: Test for WriteLine code
 Reason:  WriteLine("Lucinda Potter");` was found in the program.None
-Timestamp: 2025-01-27 02:41:17.395213
+Timestamp: 2025-01-27 02:42:42.206660
 
 Status: FAILED!
 Check: 2
 Test: Checks for Work number in code
 Reason: Unable to find ' WriteLine("work:000-555-0101");' in the program.
 Error : str - AssertionError
-Timestamp: 2025-01-27 02:41:17.395603
+Timestamp: 2025-01-27 02:42:42.207020
 
 Status: FAILED!
 Check: 3
 Test: Test for date in code `xx/xx/xxxx` format
 Reason: Unable to find 'WriteLine("6/24/1992");' in the program.
 Error : str - AssertionError
-Timestamp: 2025-01-27 02:41:17.395880
+Timestamp: 2025-01-27 02:42:42.207266
 
 Status: FAILED!
 Check: 4
 Test: Checks for Cell number in code 
 Reason: Unable to find ' WriteLine("cell 000-555-0189");' in the program.
 Error : str - AssertionError
-Timestamp: 2025-01-27 02:41:17.396203
+Timestamp: 2025-01-27 02:42:42.207555
