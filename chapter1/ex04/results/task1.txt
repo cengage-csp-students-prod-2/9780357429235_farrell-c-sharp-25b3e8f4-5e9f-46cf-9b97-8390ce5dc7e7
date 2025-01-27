@@ -1,8 +1,8 @@
 
-Status: FAILED!
+Status: PASSED!
 Check: 1
 Test: Contains appropriate code (Min. 8x)
-Reason: Unable to find '
+Reason: 
       WriteLine("   XXXXXX");
       WriteLine(" X        X");
       WriteLine("X   STOP   X");
@@ -11,14 +11,21 @@ Reason: Unable to find '
       WriteLine("      X");
       WriteLine("      X");
       WriteLine("      X");
-   ' in the program. 
-Error : str - AssertionError
-Timestamp: 2025-01-23 06:51:32.807973
+    was found in the program output.None
+Timestamp: 2025-01-27 03:24:03.306181
 
 Status: FAILED!
 Check: 2
 Test: Program Outputs Correctly
 Reason: Unable to find '['\n   XXXXXX\n X        X\nX   STOP   X\n X        X\n   XXXXXX\n      X\n      X\n      X\n']' in the program's output.
+   XXXXXX
+ X        X
+X    STOP   X
+ X        X
+   XXXXXX
+      X
+      X
+      X
 .
 Error : AssertionError - 
-Timestamp: 2025-01-23 06:51:32.821590
+Timestamp: 2025-01-27 03:24:03.324433
