@@ -3,22 +3,22 @@ Status: PASSED!
 Check: 1
 Test: Test for WriteLine code
 Reason:  WriteLine("Lucinda Potter");` was found in the program.None
-Timestamp: 2025-01-27 03:06:27.791332
+Timestamp: 2025-01-27 03:09:48.576041
 
 Status: PASSED!
 Check: 2
 Test: Checks for Work number in code
 Reason:  WriteLine("work:000-555-0101");` was found in the program.None
-Timestamp: 2025-01-27 03:06:27.791731
+Timestamp: 2025-01-27 03:09:48.576460
 
 Status: PASSED!
 Check: 3
 Test: Test for date in code `xx/xx/xxxx` format
 Reason: WriteLine("6/24/1992");` was found in the program.None
-Timestamp: 2025-01-27 03:06:27.791979
+Timestamp: 2025-01-27 03:09:48.576720
 
 Status: PASSED!
 Check: 4
 Test: Checks for Cell number in code 
 Reason:  WriteLine("cell 000-555-0189");` was found in the program.None
-Timestamp: 2025-01-27 03:06:27.792279
+Timestamp: 2025-01-27 03:09:48.577032
