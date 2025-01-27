@@ -12,20 +12,10 @@ Reason:
       WriteLine("      X");
       WriteLine("      X");
     was found in the program output.None
-Timestamp: 2025-01-27 03:24:03.306181
+Timestamp: 2025-01-27 03:25:00.670283
 
-Status: FAILED!
+Status: PASSED!
 Check: 2
 Test: Program Outputs Correctly
-Reason: Unable to find '['\n   XXXXXX\n X        X\nX   STOP   X\n X        X\n   XXXXXX\n      X\n      X\n      X\n']' in the program's output.
-   XXXXXX
- X        X
-X    STOP   X
- X        X
-   XXXXXX
-      X
-      X
-      X
-.
-Error : AssertionError - 
-Timestamp: 2025-01-27 03:24:03.324433
+Reason: None
+Timestamp: 2025-01-27 03:25:00.688743
