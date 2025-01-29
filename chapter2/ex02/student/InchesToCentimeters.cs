@@ -8,7 +8,7 @@ class InchesToCentimeters
 		const double cmToInch = 2.54;
 		double inches = 3;
 		double totalCm = inches * cmToInch;
-		WriteLine("The length of {0} inches being converted using {1} centimeters per inch is equal to {2} centimeters", inches, cmToInch ,totalCm);
+		WriteLine(" {0} inches is {1} centimeters", inches ,totalCm);
 
 	}
 }
