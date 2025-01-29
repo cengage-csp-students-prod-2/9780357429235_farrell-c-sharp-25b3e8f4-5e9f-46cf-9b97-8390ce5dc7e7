@@ -1,0 +1,12 @@
+
+Status: PASSED!
+Check: 1
+Test: Not your own boss
+Reason: None
+Timestamp: 2025-01-29 11:19:35.704755
+
+Status: PASSED!
+Check: 2
+Test: Own boss
+Reason: None
+Timestamp: 2025-01-29 11:19:35.723392
