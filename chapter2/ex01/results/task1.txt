@@ -3,10 +3,10 @@ Status: PASSED!
 Check: 1
 Test: Variable of type `double` used
 Reason: ^\s*double.+` was found in the program.None
-Timestamp: 2025-01-29 10:04:48.437421
+Timestamp: 2025-01-29 10:05:45.095561
 
 Status: PASSED!
 Check: 2
 Test: Variable of type `decimal` used
 Reason: ^\s*decimal.+$` was found in the program.None
-Timestamp: 2025-01-29 10:04:48.437699
+Timestamp: 2025-01-29 10:05:45.095851
