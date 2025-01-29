@@ -1,0 +1,15 @@
+
+Status: FAILED!
+Check: 1
+Test: Output in specified format
+Reason: Unable to find '['3 inches is 7.62 centimeters']' in the program's output.
+The length of 3 inches being converted using 2.54 centimeters per inch is equal to 7.62 centimeters
+.
+Error : AssertionError - Unable to find 3 inches is 7.62 centimeters in the program's output.
+Timestamp: 2025-01-29 10:28:09.339467
+
+Status: PASSED!
+Check: 2
+Test: Did not hard code answers into program's output
+Reason: WriteLine("3 inches is 7.62 centimeters"); ` was found in the program.None
+Timestamp: 2025-01-29 10:28:09.339937
