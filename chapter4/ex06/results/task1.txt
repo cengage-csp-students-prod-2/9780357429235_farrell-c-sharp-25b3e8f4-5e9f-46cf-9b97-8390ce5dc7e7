@@ -4,34 +4,34 @@ Reason: Unable to run CheckMonth2.cs
 Error: 
 Unhandled Exception:
 System.IndexOutOfRangeException: Index was outside the bounds of the array.
-  at CheckMonth2.Main () [0x000ac] in <0060b869403e4af5839010dbef9bdc2c>:0 
+  at CheckMonth2.Main () [0x000ac] in <59da32216c264307bb8719b5fa46a4d0>:0 
 [ERROR] FATAL UNHANDLED EXCEPTION: System.IndexOutOfRangeException: Index was outside the bounds of the array.
-  at CheckMonth2.Main () [0x000ac] in <0060b869403e4af5839010dbef9bdc2c>:0 
+  at CheckMonth2.Main () [0x000ac] in <59da32216c264307bb8719b5fa46a4d0>:0 
 
-Timestamp: 2025-02-12 22:34:25.995349
+Timestamp: 2025-02-12 22:39:49.419974
 
 Status: FAILED!
 Reason: Unable to run CheckMonth2.cs
 Error: 
 Unhandled Exception:
 System.IndexOutOfRangeException: Index was outside the bounds of the array.
-  at CheckMonth2.Main () [0x000ac] in <0060b869403e4af5839010dbef9bdc2c>:0 
+  at CheckMonth2.Main () [0x000ac] in <59da32216c264307bb8719b5fa46a4d0>:0 
 [ERROR] FATAL UNHANDLED EXCEPTION: System.IndexOutOfRangeException: Index was outside the bounds of the array.
-  at CheckMonth2.Main () [0x000ac] in <0060b869403e4af5839010dbef9bdc2c>:0 
+  at CheckMonth2.Main () [0x000ac] in <59da32216c264307bb8719b5fa46a4d0>:0 
 
-Timestamp: 2025-02-12 22:34:25.995453
+Timestamp: 2025-02-12 22:39:49.420079
 
 Status: PASSED!
 Check: 2
 Test: Invalid day
 Reason: None
-Timestamp: 2025-02-12 22:34:26.014311
+Timestamp: 2025-02-12 22:39:49.438307
 
 Status: PASSED!
 Check: 3
 Test: Valid birthday
 Reason: None
-Timestamp: 2025-02-12 22:34:26.032997
+Timestamp: 2025-02-12 22:39:49.456331
 
 Status: FAILED!
 Check: 4
@@ -40,10 +40,10 @@ Reason: Unable to find '['2/29 is a valid birthday']' in the program's output.
 Enter your birth month (1-12)Enter your birthday (1-31)Enter the year to check for leap year: Invalid date
 .
 Error : AssertionError - Unable to find 2/29 is a valid birthday in the program's output.
-Timestamp: 2025-02-12 22:34:26.051759
+Timestamp: 2025-02-12 22:39:49.474482
 
 Status: PASSED!
 Check: 5
 Test: Invalid day in November
 Reason: None
-Timestamp: 2025-02-12 22:34:26.070663
+Timestamp: 2025-02-12 22:39:49.492725
