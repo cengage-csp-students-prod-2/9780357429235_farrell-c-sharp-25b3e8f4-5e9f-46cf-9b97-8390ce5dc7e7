@@ -1,39 +1,48 @@
 
-Status: PASSED!
-Check: 1
-Test: Sale <= $1,000
-Reason: None
-Timestamp: 2025-02-12 20:24:46.744942
+Status: FAILED!
+Reason: Unable to run DebugFour4.cs
+Error: Cannot open assembly 'DebugFour4.exe': No such file or directory.
+
+Timestamp: 2025-02-12 20:28:56.743686
 
 Status: FAILED!
-Check: 2
-Test: Sale <= $5,000
-Reason: Unable to find '['Sales: $4,568.00', 'Commission: $299.76']' in the program's output.
-What was the sales amount? 
-Sales: $4,568.00
-Commission: $478.16
-.
-Error : AssertionError - Unable to find Commission: $299.76 in the program's output.
-Timestamp: 2025-02-12 20:24:46.766956
+Reason: Unable to run DebugFour4.cs
+Error: Cannot open assembly 'DebugFour4.exe': No such file or directory.
+
+Timestamp: 2025-02-12 20:28:56.743795
 
 Status: FAILED!
-Check: 3
-Test: Sale <= $10,000
-Reason: Unable to find '['Sales: $8,654.00', 'Commission: $1,585.78']' in the program's output.
-What was the sales amount? 
-Sales: $8,654.00
-Commission: $968.48
-.
-Error : AssertionError - Unable to find Commission: $1,585.78 in the program's output.
-Timestamp: 2025-02-12 20:24:46.789339
+Reason: Unable to run DebugFour4.cs
+Error: Cannot open assembly 'DebugFour4.exe': No such file or directory.
+
+Timestamp: 2025-02-12 20:28:56.756364
 
 Status: FAILED!
-Check: 4
-Test: Sale > $10,000
-Reason: Unable to find '['Sales: $43,987.00', 'Commission: $5,559.09']' in the program's output.
-What was the sales amount? 
-Sales: $43,987.00
-Commission: $5,208.44
-.
-Error : AssertionError - Unable to find Commission: $5,559.09 in the program's output.
-Timestamp: 2025-02-12 20:24:46.812784
+Reason: Unable to run DebugFour4.cs
+Error: Cannot open assembly 'DebugFour4.exe': No such file or directory.
+
+Timestamp: 2025-02-12 20:28:56.756408
+
+Status: FAILED!
+Reason: Unable to run DebugFour4.cs
+Error: Cannot open assembly 'DebugFour4.exe': No such file or directory.
+
+Timestamp: 2025-02-12 20:28:56.770598
+
+Status: FAILED!
+Reason: Unable to run DebugFour4.cs
+Error: Cannot open assembly 'DebugFour4.exe': No such file or directory.
+
+Timestamp: 2025-02-12 20:28:56.770699
+
+Status: FAILED!
+Reason: Unable to run DebugFour4.cs
+Error: Cannot open assembly 'DebugFour4.exe': No such file or directory.
+
+Timestamp: 2025-02-12 20:28:56.784949
+
+Status: FAILED!
+Reason: Unable to run DebugFour4.cs
+Error: Cannot open assembly 'DebugFour4.exe': No such file or directory.
+
+Timestamp: 2025-02-12 20:28:56.785023
