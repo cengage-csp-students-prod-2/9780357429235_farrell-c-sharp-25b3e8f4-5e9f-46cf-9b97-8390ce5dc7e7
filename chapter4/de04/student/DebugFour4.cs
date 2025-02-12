@@ -26,7 +26,7 @@ class DebugFour4
       sales = Convert.ToDouble(inputString);
       commission = LOWPCT * sales;
       if(sales <= LOWSALES)
-        commission += (sales - LOWSALES) * MEDPCT;
+        commission += sales * LOWPCT;
       else
         if(sales <= MEDSALES)
            commission += BONUS1;
