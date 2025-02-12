@@ -18,7 +18,7 @@ class DebugFour4
       const int MEDSALES = 5000;
       const int HIGHSALES = 10000;
       const double LOWPCT = 0.05;
-      const double MEDPCT = 0.02;
+      const double MEDPCT = 0.07;
       const int BONUS1 = 1000;
       const int BONUS2 = 1500;
       WriteLine("What was the sales amount? ");
@@ -26,10 +26,10 @@ class DebugFour4
       sales = Convert.ToDouble(inputString);
       commission = LOWPCT * sales;
       if(sales <= LOWSALES)
-        commission += (sales - LOWSALES) * MEDPCT;
+        commission = (sales - LOWSALES) * MEDPCT;
       else
         if(sales <= MEDSALES)
-           commission += BONUS1;
+           commission = BONUS1;
          else
            if(sales <= HIGHSALES)
              commission = BONUS2; 
