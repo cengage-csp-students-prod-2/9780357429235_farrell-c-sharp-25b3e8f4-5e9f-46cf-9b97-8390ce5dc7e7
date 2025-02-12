@@ -29,7 +29,7 @@ class DebugFour4
         commission += (sales - LOWSALES) * MEDPCT;
       else
         if(sales == MEDSALES)
-           commission += BONUS1;
+           commission = (LOWSALES * LOWPCT) + ((sales - LOWSALES) * MEDPCT);
          else
            if(sales > HIGHSALES)
              commission = BONUS2; 
