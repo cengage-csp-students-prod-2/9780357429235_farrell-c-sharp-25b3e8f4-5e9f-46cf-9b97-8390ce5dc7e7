@@ -17,9 +17,9 @@ class CheckMonth2
         //This helps keep the months valid
         if (month < 1 || month > 12)
         {
-            Console.WriteLine("Invalid date");
+            Console.WriteLine("'Invalid date'");
         }
-        //Checks for leap year
+
         if (month == 2)
         {
             Console.Write("Enter the year to check for leap year: ");
@@ -31,7 +31,7 @@ class CheckMonth2
         }
         if (day < 1 || day > daysInMonth[month])
         {
-            Console.WriteLine("Invalid date");
+            Console.WriteLine("'Invalid date'");
         }
         else
         {
