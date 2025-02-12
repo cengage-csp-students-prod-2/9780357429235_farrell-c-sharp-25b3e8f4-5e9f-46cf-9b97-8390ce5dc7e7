@@ -1,48 +1,39 @@
 
 Status: FAILED!
-Reason: Unable to run DebugFour4.cs
-Error: Cannot open assembly 'DebugFour4.exe': No such file or directory.
+Check: 1
+Test: Sale <= $1,000
+Reason: Unable to find '['Sales: $1,000.00', 'Commission: $50.00']' in the program's output.
+What was the sales amount? 
+Sales: $1,000.00
+Commission: $1,000,000.00
+.
+Error : AssertionError - Unable to find Commission: $50.00 in the program's output.
+Timestamp: 2025-02-12 20:30:47.902734
 
-Timestamp: 2025-02-12 20:29:39.224615
-
-Status: FAILED!
-Reason: Unable to run DebugFour4.cs
-Error: Cannot open assembly 'DebugFour4.exe': No such file or directory.
-
-Timestamp: 2025-02-12 20:29:39.224718
-
-Status: FAILED!
-Reason: Unable to run DebugFour4.cs
-Error: Cannot open assembly 'DebugFour4.exe': No such file or directory.
-
-Timestamp: 2025-02-12 20:29:39.237045
-
-Status: FAILED!
-Reason: Unable to run DebugFour4.cs
-Error: Cannot open assembly 'DebugFour4.exe': No such file or directory.
-
-Timestamp: 2025-02-12 20:29:39.237095
+Status: PASSED!
+Check: 2
+Test: Sale <= $5,000
+Reason: None
+Timestamp: 2025-02-12 20:30:47.925228
 
 Status: FAILED!
-Reason: Unable to run DebugFour4.cs
-Error: Cannot open assembly 'DebugFour4.exe': No such file or directory.
-
-Timestamp: 2025-02-12 20:29:39.249494
-
-Status: FAILED!
-Reason: Unable to run DebugFour4.cs
-Error: Cannot open assembly 'DebugFour4.exe': No such file or directory.
-
-Timestamp: 2025-02-12 20:29:39.249540
-
-Status: FAILED!
-Reason: Unable to run DebugFour4.cs
-Error: Cannot open assembly 'DebugFour4.exe': No such file or directory.
-
-Timestamp: 2025-02-12 20:29:39.261792
+Check: 3
+Test: Sale <= $10,000
+Reason: Unable to find '['Sales: $8,654.00', 'Commission: $1,585.78']' in the program's output.
+What was the sales amount? 
+Sales: $8,654.00
+Commission: $432.70
+.
+Error : AssertionError - Unable to find Commission: $1,585.78 in the program's output.
+Timestamp: 2025-02-12 20:30:47.947911
 
 Status: FAILED!
-Reason: Unable to run DebugFour4.cs
-Error: Cannot open assembly 'DebugFour4.exe': No such file or directory.
-
-Timestamp: 2025-02-12 20:29:39.261837
+Check: 4
+Test: Sale > $10,000
+Reason: Unable to find '['Sales: $43,987.00', 'Commission: $5,559.09']' in the program's output.
+What was the sales amount? 
+Sales: $43,987.00
+Commission: $1,330.00
+.
+Error : AssertionError - Unable to find Commission: $5,559.09 in the program's output.
+Timestamp: 2025-02-12 20:30:47.970914
