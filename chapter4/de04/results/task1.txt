@@ -3,7 +3,7 @@ Status: PASSED!
 Check: 1
 Test: Sale <= $1,000
 Reason: None
-Timestamp: 2025-02-12 20:21:48.170663
+Timestamp: 2025-02-12 20:24:00.776958
 
 Status: FAILED!
 Check: 2
@@ -11,10 +11,10 @@ Test: Sale <= $5,000
 Reason: Unable to find '['Sales: $4,568.00', 'Commission: $299.76']' in the program's output.
 What was the sales amount? 
 Sales: $4,568.00
-Commission: $228.40
+Commission: $1,228.40
 .
 Error : AssertionError - Unable to find Commission: $299.76 in the program's output.
-Timestamp: 2025-02-12 20:21:48.192509
+Timestamp: 2025-02-12 20:24:00.799895
 
 Status: FAILED!
 Check: 3
@@ -22,10 +22,10 @@ Test: Sale <= $10,000
 Reason: Unable to find '['Sales: $8,654.00', 'Commission: $1,585.78']' in the program's output.
 What was the sales amount? 
 Sales: $8,654.00
-Commission: $1,432.70
+Commission: $1,500.00
 .
 Error : AssertionError - Unable to find Commission: $1,585.78 in the program's output.
-Timestamp: 2025-02-12 20:21:48.214860
+Timestamp: 2025-02-12 20:24:00.821885
 
 Status: FAILED!
 Check: 4
@@ -33,7 +33,7 @@ Test: Sale > $10,000
 Reason: Unable to find '['Sales: $43,987.00', 'Commission: $5,559.09']' in the program's output.
 What was the sales amount? 
 Sales: $43,987.00
-Commission: $3,199.35
+Commission: $2,199.35
 .
 Error : AssertionError - Unable to find Commission: $5,559.09 in the program's output.
-Timestamp: 2025-02-12 20:21:48.238156
+Timestamp: 2025-02-12 20:24:00.845233
