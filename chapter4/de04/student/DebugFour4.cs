@@ -31,7 +31,9 @@ class DebugFour4
            commission = LOWPCT * LOWSALES + MEDPCT * (sales - LOWSALES);
          else
            if(sales <= HIGHSALES)
-             commission = LOWPCT * LOWSALES + MEDPCT * (MEDSALES - LOWSALES) + BONUS2;
+             commission = LOWPCT * LOWSALES + MEDPCT * (sales - LOWSALES) + BONUS1;
+             else
+              commission = LOWPCT * LOWSALES + MEDPCT * (sales - LOWSALES) + BONUS1 + BONUS2;
       WriteLine("Sales: {0}\nCommission: {1}",
         sales.ToString("C", CultureInfo.GetCultureInfo("en-US")), commission.ToString("C", CultureInfo.GetCultureInfo("en-US")));
   }
