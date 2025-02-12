@@ -1,49 +1,49 @@
 
+Status: FAILED!
+Reason: Unable to run CheckMonth2.cs
+Error: 
+Unhandled Exception:
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+  at CheckMonth2.Main () [0x000ac] in <eeb1c7ee5dcf45ce9593a1c3aef896e2>:0 
+[ERROR] FATAL UNHANDLED EXCEPTION: System.IndexOutOfRangeException: Index was outside the bounds of the array.
+  at CheckMonth2.Main () [0x000ac] in <eeb1c7ee5dcf45ce9593a1c3aef896e2>:0 
+
+Timestamp: 2025-02-12 22:32:34.270060
+
+Status: FAILED!
+Reason: Unable to run CheckMonth2.cs
+Error: 
+Unhandled Exception:
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+  at CheckMonth2.Main () [0x000ac] in <eeb1c7ee5dcf45ce9593a1c3aef896e2>:0 
+[ERROR] FATAL UNHANDLED EXCEPTION: System.IndexOutOfRangeException: Index was outside the bounds of the array.
+  at CheckMonth2.Main () [0x000ac] in <eeb1c7ee5dcf45ce9593a1c3aef896e2>:0 
+
+Timestamp: 2025-02-12 22:32:34.270193
+
 Status: PASSED!
-Check: 1
-Test: Invalid month
+Check: 2
+Test: Invalid day
 Reason: None
-Timestamp: 2025-02-12 22:29:08.795487
-
-Status: FAILED!
-Reason: Unable to run CheckMonth2.cs
-Error: 
-Unhandled Exception:
-System.IndexOutOfRangeException: Index was outside the bounds of the array.
-  at CheckMonth2.Main () [0x000ac] in <6383f0f1971e4c7aa169af8ca18a52f1>:0 
-[ERROR] FATAL UNHANDLED EXCEPTION: System.IndexOutOfRangeException: Index was outside the bounds of the array.
-  at CheckMonth2.Main () [0x000ac] in <6383f0f1971e4c7aa169af8ca18a52f1>:0 
-
-Timestamp: 2025-02-12 22:29:08.814813
-
-Status: FAILED!
-Reason: Unable to run CheckMonth2.cs
-Error: 
-Unhandled Exception:
-System.IndexOutOfRangeException: Index was outside the bounds of the array.
-  at CheckMonth2.Main () [0x000ac] in <6383f0f1971e4c7aa169af8ca18a52f1>:0 
-[ERROR] FATAL UNHANDLED EXCEPTION: System.IndexOutOfRangeException: Index was outside the bounds of the array.
-  at CheckMonth2.Main () [0x000ac] in <6383f0f1971e4c7aa169af8ca18a52f1>:0 
-
-Timestamp: 2025-02-12 22:29:08.814878
+Timestamp: 2025-02-12 22:32:34.289598
 
 Status: PASSED!
 Check: 3
 Test: Valid birthday
 Reason: None
-Timestamp: 2025-02-12 22:29:08.833200
-
-Status: PASSED!
-Check: 4
-Test: Valid day in February
-Reason: None
-Timestamp: 2025-02-12 22:29:08.851844
+Timestamp: 2025-02-12 22:32:34.309187
 
 Status: FAILED!
+Check: 4
+Test: Valid day in February
+Reason: Unable to find '['2/29 is a valid birthday']' in the program's output.
+Enter your birth month (1-12)Enter your birthday (1-31)Enter the year to check for leap year: Invalid date
+.
+Error : AssertionError - Unable to find 2/29 is a valid birthday in the program's output.
+Timestamp: 2025-02-12 22:32:34.328948
+
+Status: PASSED!
 Check: 5
 Test: Invalid day in November
-Reason: Unable to find '['Invalid date']' in the program's output.
-Enter your birth month (1-12)Enter your birthday (1-31)11/31 is a valid birthday.
-.
-Error : AssertionError - Unable to find Invalid date in the program's output.
-Timestamp: 2025-02-12 22:29:08.870795
+Reason: None
+Timestamp: 2025-02-12 22:32:34.348459
