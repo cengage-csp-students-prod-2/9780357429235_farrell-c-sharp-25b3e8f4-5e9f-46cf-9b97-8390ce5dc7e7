@@ -12,7 +12,7 @@ class DebugFour4
 {
    static void Main()
    {
-      double sales, commission;
+      double sales, commission = 0.0;
       string inputString;
       const int LOWSALES = 1000;
       const int MEDSALES = 5000;
@@ -24,15 +24,14 @@ class DebugFour4
       WriteLine("What was the sales amount? ");
       inputString = ReadLine();
       sales = Convert.ToDouble(inputString);
-      commission = LOWPCT * sales;
       if(sales <= LOWSALES)
-        commission += (sales - LOWSALES) * MEDPCT;
+        commission = LOWPCT * sales;
       else
-        if(sales == MEDSALES)
-           commission = (LOWSALES * LOWPCT) + ((sales - LOWSALES) * MEDPCT) + BONUS1;
+        if(sales <= MEDSALES)
+           commission = LOWPCT * LOWSALES + MEDPCT * (sales - LOWSALES);
          else
-           if(sales > HIGHSALES)
-             commission = BONUS2; 
+           if(sales <= HIGHSALES)
+             commission = LOWPCT * LOWSALES + MEDPCT * (MEDSALES - LOWSALES) + BONUS1;
       WriteLine("Sales: {0}\nCommission: {1}",
         sales.ToString("C", CultureInfo.GetCultureInfo("en-US")), commission.ToString("C", CultureInfo.GetCultureInfo("en-US")));
   }
