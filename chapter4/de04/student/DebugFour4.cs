@@ -23,7 +23,7 @@ class DebugFour4
       const int BONUS2 = 1500;
       WriteLine("What was the sales amount? ");
       inputString = ReadLine();
-      sales = Convert.ToDouble(inputtString);
+      sales = Convert.ToDouble(inputString);
       commission = LOWPCT * sales;
       if(sales <= LOWSALES)
         commission += (sales - LOWSALES) * MEDPCT;
