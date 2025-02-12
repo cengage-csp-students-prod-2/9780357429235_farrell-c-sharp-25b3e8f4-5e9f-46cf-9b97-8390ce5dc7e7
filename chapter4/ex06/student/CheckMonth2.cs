@@ -17,7 +17,7 @@ class CheckMonth2
         //This helps keep the months valid
         if (month < 1 || month > 12)
         {
-            Console.WriteLine("'Invalid date'");
+            Console.WriteLine("Invalid date");
         }
 
         if (month == 2)
@@ -29,9 +29,9 @@ class CheckMonth2
                 daysInMonth[2] = 29;
             }
         }
-        if (day < 1 || day > daysInMonth[month])
+        if (day < 1 || day > daysInMonth[month - 1])
         {
-            Console.WriteLine("'Invalid date'");
+            Console.WriteLine("Invalid date");
         }
         else
         {
