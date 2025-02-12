@@ -3,41 +3,41 @@ Status: PASSED!
 Check: 1
 Test: Invalid month
 Reason: None
-Timestamp: 2025-02-12 22:25:08.837313
+Timestamp: 2025-02-12 22:29:08.795487
 
 Status: FAILED!
 Reason: Unable to run CheckMonth2.cs
 Error: 
 Unhandled Exception:
 System.IndexOutOfRangeException: Index was outside the bounds of the array.
-  at CheckMonth2.Main () [0x000ac] in <a07abc4cb5ad4a0c96c2668bf18965a0>:0 
+  at CheckMonth2.Main () [0x000ac] in <6383f0f1971e4c7aa169af8ca18a52f1>:0 
 [ERROR] FATAL UNHANDLED EXCEPTION: System.IndexOutOfRangeException: Index was outside the bounds of the array.
-  at CheckMonth2.Main () [0x000ac] in <a07abc4cb5ad4a0c96c2668bf18965a0>:0 
+  at CheckMonth2.Main () [0x000ac] in <6383f0f1971e4c7aa169af8ca18a52f1>:0 
 
-Timestamp: 2025-02-12 22:25:08.858233
+Timestamp: 2025-02-12 22:29:08.814813
 
 Status: FAILED!
 Reason: Unable to run CheckMonth2.cs
 Error: 
 Unhandled Exception:
 System.IndexOutOfRangeException: Index was outside the bounds of the array.
-  at CheckMonth2.Main () [0x000ac] in <a07abc4cb5ad4a0c96c2668bf18965a0>:0 
+  at CheckMonth2.Main () [0x000ac] in <6383f0f1971e4c7aa169af8ca18a52f1>:0 
 [ERROR] FATAL UNHANDLED EXCEPTION: System.IndexOutOfRangeException: Index was outside the bounds of the array.
-  at CheckMonth2.Main () [0x000ac] in <a07abc4cb5ad4a0c96c2668bf18965a0>:0 
+  at CheckMonth2.Main () [0x000ac] in <6383f0f1971e4c7aa169af8ca18a52f1>:0 
 
-Timestamp: 2025-02-12 22:25:08.858323
+Timestamp: 2025-02-12 22:29:08.814878
 
 Status: PASSED!
 Check: 3
 Test: Valid birthday
 Reason: None
-Timestamp: 2025-02-12 22:25:08.878527
+Timestamp: 2025-02-12 22:29:08.833200
 
 Status: PASSED!
 Check: 4
 Test: Valid day in February
 Reason: None
-Timestamp: 2025-02-12 22:25:08.898176
+Timestamp: 2025-02-12 22:29:08.851844
 
 Status: FAILED!
 Check: 5
@@ -46,4 +46,4 @@ Reason: Unable to find '['Invalid date']' in the program's output.
 Enter your birth month (1-12)Enter your birthday (1-31)11/31 is a valid birthday.
 .
 Error : AssertionError - Unable to find Invalid date in the program's output.
-Timestamp: 2025-02-12 22:25:08.917769
+Timestamp: 2025-02-12 22:29:08.870795
