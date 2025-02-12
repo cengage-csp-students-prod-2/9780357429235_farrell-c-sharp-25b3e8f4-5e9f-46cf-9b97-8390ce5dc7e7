@@ -26,12 +26,12 @@ class DebugFour4
       sales = Convert.ToDouble(inputString);
       commission = LOWPCT * sales;
       if(sales <= LOWSALES)
-        commission += sales * LOWPCT;
+        commission += (sales - LOWSALES) * MEDPCT;
       else
-        if(sales <= MEDSALES)
+        if(sales == MEDSALES)
            commission += BONUS1;
          else
-           if(sales <= HIGHSALES)
+           if(sales > HIGHSALES)
              commission = BONUS2; 
       WriteLine("Sales: {0}\nCommission: {1}",
         sales.ToString("C", CultureInfo.GetCultureInfo("en-US")), commission.ToString("C", CultureInfo.GetCultureInfo("en-US")));
