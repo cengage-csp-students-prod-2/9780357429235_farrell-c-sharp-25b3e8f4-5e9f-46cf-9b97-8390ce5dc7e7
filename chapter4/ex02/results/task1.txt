@@ -1,18 +1,12 @@
 
-Status: FAILED!
+Status: PASSED!
 Check: 1
 Test: Message within 140 character limit
-Reason: Unable to find '['The message is okay']' in the program's output.
-Enter your message: 'This message is okay'
-.
-Error : AssertionError - Unable to find The message is okay in the program's output.
-Timestamp: 2025-02-12 19:41:20.386628
+Reason: None
+Timestamp: 2025-02-12 19:42:49.072540
 
-Status: FAILED!
+Status: PASSED!
 Check: 2
 Test: Message exceeds 140 character limit
-Reason: Unable to find '['The message is too long']' in the program's output.
-Enter your message: 'This message is too long'
-.
-Error : AssertionError - Unable to find The message is too long in the program's output.
-Timestamp: 2025-02-12 19:41:20.406007
+Reason: None
+Timestamp: 2025-02-12 19:42:49.093077
