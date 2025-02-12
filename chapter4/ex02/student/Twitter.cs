@@ -11,11 +11,11 @@ class Twitter
 		string message = Console.ReadLine();
 		if (message.Length > TEXT_LENGTH)
 		{
-			Console.WriteLine("This message is too long");
+			Console.WriteLine("'This message is too long'");
 		}
 		else
 		{
-			Console.WriteLine("This message is okay");
+			Console.WriteLine("'This message is okay'");
 		}
 	}
 }
