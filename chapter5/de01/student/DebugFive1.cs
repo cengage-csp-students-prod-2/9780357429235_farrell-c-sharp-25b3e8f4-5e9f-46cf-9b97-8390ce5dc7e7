@@ -11,13 +11,14 @@ class DebugFive1
       const string PASS3 = "mouse";
       string password;
 
-      Write("Please enter your password ");
-      password = Console.ReadLine();
-      while(password != PASS1 && password != PASS2 && password != PASS3)
+      Write("Please enter your password: ");
+      password = ReadLine();
+
+      while(password != PASS1 || password != PASS2 || password != PASS3)
       {
          WriteLine("Invalid password. Please enter again. ");
-      password = ReadLine();
-   }
+         password = ReadLine();
+      }
       WriteLine("Valid password");
    }
 }
