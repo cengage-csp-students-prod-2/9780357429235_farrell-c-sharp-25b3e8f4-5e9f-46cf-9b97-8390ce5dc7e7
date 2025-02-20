@@ -6,16 +6,18 @@ class DebugFive1
 {
    static void Main()
    {
-      cont string PASS1 = "home";
-      cont string PASS2 = "lady";
-      cont string PASS3 = "mouse";
+      const string PASS1 = "home";
+      const string PASS2 = "lady";
+      const string PASS3 = "mouse";
       string password;
 
       Write("Please enter your password ");
       password = Console.ReadLine();
-      while(password != PASS1 || password != PASS2 || password != PASS3)
+      while(password != PASS1 && password != PASS2 && password != PASS3)
+      {
          WriteLine("Invalid password. Please enter again. ");
       password = ReadLine();
+   }
       WriteLine("Valid password");
    }
 }
