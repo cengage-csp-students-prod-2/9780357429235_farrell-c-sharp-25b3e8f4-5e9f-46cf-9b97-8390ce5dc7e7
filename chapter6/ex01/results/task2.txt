@@ -1,14 +1,14 @@
 
 Status: FAILED!
-Check: 1
-Test: View list from last to first
-Reason: Unable to find '['1    9    5    4    8   10    2    3    6 7']' in the program's output.
-1 - View the list in order from the first to last position in the stored array.
-2 - View the list in order from the last to first position.
-3 - Choose a specific position to view.
-4 - Quit the application.
-Enter which option you would like to select: From last to first:
-7 6 3 2 10 8 4 5 9 1 
-.
-Error : AssertionError - 
-Timestamp: 2025-02-28 08:37:56.026677
+Reason: Unable to run ArrayDemo.cs
+Error: The program took longer than 5 seconds to execute.
+This may indicate an issue providing input to your program.
+Check your program follows the example in the instructions.
+Timestamp: 2025-02-28 08:40:52.998578
+
+Status: FAILED!
+Reason: Unable to run ArrayDemo.cs
+Error: The program took longer than 5 seconds to execute.
+This may indicate an issue providing input to your program.
+Check your program follows the example in the instructions.
+Timestamp: 2025-02-28 08:40:52.998785
