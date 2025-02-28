@@ -1,0 +1,9 @@
+
+Status: FAILED!
+Check: 1
+Test: Output items for sale
+Reason: Unable to find '['Items for sale:', '        Belt for     $29.00', '         Tie for     $35.95', '       Scarf for     $18.50', '   Cufflinks for    $112.99']' in the program's output.
+Items for sale:
+.
+Error : AssertionError - 
+Timestamp: 2025-02-28 09:19:04.966917
