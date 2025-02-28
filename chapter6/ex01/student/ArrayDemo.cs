@@ -23,7 +23,6 @@ class ArrayDemo
 		{
 			case 1:
 				WriteLine("From first to fast:");
-
 				for (int x = 0; x < nums.Length; x++)
 				{
 					Write(nums[x] + " ");
@@ -32,7 +31,7 @@ class ArrayDemo
 				break;
 			case 2:
 				WriteLine("From last to first:");
-
+				Array.Reverse(nums);
 				for (int x = 0; x < nums.Length; x++)
 				{
 					Write(nums[x] + " ");
@@ -55,6 +54,7 @@ class ArrayDemo
 				WriteLine("Closing the application");
 				break;
 		}
+		while (options != 4);
 
 	}
 }
