@@ -12,6 +12,9 @@ class ArrayDemo
 		int[] nums = {7, 6, 3, 2, 10, 8, 4, 5, 9, 1};
 		// Write your code here
 		int options;
+		
+		do
+		{
 		WriteLine("1 - View the list in order from the first to last position in the stored array.");
 		WriteLine("2 - View the list in order from the last to first position.");
 		WriteLine("3 - Choose a specific position to view.");
@@ -54,7 +57,7 @@ class ArrayDemo
 				WriteLine("Closing the application");
 				break;
 		}
+		}
 		while (options != 4);
-
 	}
 }
