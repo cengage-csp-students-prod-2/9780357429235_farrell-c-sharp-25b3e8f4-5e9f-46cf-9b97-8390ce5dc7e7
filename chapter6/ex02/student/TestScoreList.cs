@@ -22,7 +22,7 @@ class TestScoreList
 		WriteLine("Test scores and the mean:");
 		for (int y = 0; y < num_scores; y++)
 		{
-			int z = scores[y] - (int)mean;
+			double z = scores[y] - mean;
 			WriteLine("Test # {0}: {1,5} From mean: {2,5}", y, scores[y], z);
 		}
 	}
