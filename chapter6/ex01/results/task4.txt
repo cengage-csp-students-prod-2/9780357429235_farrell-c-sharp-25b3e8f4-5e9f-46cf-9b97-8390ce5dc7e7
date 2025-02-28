@@ -8,7 +8,7 @@ Reason: Unable to find '['7 6 3 2 10 8 4 5 9 1', '1    9    5    4    8   10    
 3 - Choose a specific position to view.
 4 - Quit the application.
 Enter which option you would like to select: From first to fast:
-1 2 3 4 5 6 7 8 9 10 
+7 6 3 2 10 8 4 5 9 1 
 .
 Error : AssertionError - 
-Timestamp: 2025-02-28 08:36:21.465647
+Timestamp: 2025-02-28 08:37:56.063032
