@@ -14,7 +14,7 @@ Test # 6:    47 From mean:   -13
 Test # 7:    54 From mean:    -6
 .
 Error : AssertionError - 
-Timestamp: 2025-02-28 09:05:27.339291
+Timestamp: 2025-02-28 09:07:46.360334
 
 Status: FAILED!
 Check: 2
@@ -31,4 +31,4 @@ Test # 6:    90 From mean:     7
 Test # 7:    97 From mean:    14
 .
 Error : AssertionError - 
-Timestamp: 2025-02-28 09:05:27.358624
+Timestamp: 2025-02-28 09:07:46.378845
