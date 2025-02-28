@@ -4,17 +4,17 @@ Check: 1
 Test: Outputs how far score is from average case 1
 Reason: Unable to find '['Test # 0:    74 From average: 13.375', 'Test # 1:    65 From average: 4.375', 'Test # 2:    34 From average: -26.625', 'Test # 3:    25 From average: -35.625', 'Test # 4:   100 From average: 39.375', 'Test # 5:    86 From average: 25.375', 'Test # 6:    47 From average: -13.625', 'Test # 7:    54 From average: -6.625']' in the program's output.
 Enter your test score for #0: Enter your test score for #1: Enter your test score for #2: Enter your test score for #3: Enter your test score for #4: Enter your test score for #5: Enter your test score for #6: Enter your test score for #7: Test scores and the mean:
-Test # 0:    74 From mean:    14
-Test # 1:    65 From mean:     5
-Test # 2:    34 From mean:   -26
-Test # 3:    25 From mean:   -35
-Test # 4:   100 From mean:    40
-Test # 5:    86 From mean:    26
-Test # 6:    47 From mean:   -13
-Test # 7:    54 From mean:    -6
+Test # 0:    74 From mean: 13.375
+Test # 1:    65 From mean: 4.375
+Test # 2:    34 From mean: -26.625
+Test # 3:    25 From mean: -35.625
+Test # 4:   100 From mean: 39.375
+Test # 5:    86 From mean: 25.375
+Test # 6:    47 From mean: -13.625
+Test # 7:    54 From mean: -6.625
 .
 Error : AssertionError - 
-Timestamp: 2025-02-28 09:07:46.360334
+Timestamp: 2025-02-28 09:11:08.984199
 
 Status: FAILED!
 Check: 2
@@ -31,4 +31,4 @@ Test # 6:    90 From mean:     7
 Test # 7:    97 From mean:    14
 .
 Error : AssertionError - 
-Timestamp: 2025-02-28 09:07:46.378845
+Timestamp: 2025-02-28 09:11:09.004130
