@@ -1,0 +1,14 @@
+
+Status: FAILED!
+Check: 1
+Test: View list from last to first
+Reason: Unable to find '['1    9    5    4    8   10    2    3    6 7']' in the program's output.
+1 - View the list in order from the first to last position in the stored array.
+2 - View the list in order from the last to first position.
+3 - Choose a specific position to view.
+4 - Quit the application.
+Enter which option you would like to select: From last to first:
+10 9 8 7 6 5 4 3 2 1 
+.
+Error : AssertionError - 
+Timestamp: 2025-02-28 08:36:21.427555
