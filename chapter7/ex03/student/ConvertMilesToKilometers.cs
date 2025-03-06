@@ -10,9 +10,9 @@ class ConvertMilesToKilometers
 		double kilometers = ConvertToKilometers(miles);
 		WriteLine("{0} miles is {1} kilometers", miles, kilometers);
 	}
-	static double ConvertToKilometers(double miles);
+	static double ConvertToKilometers(double miles)
 	{
-		const double ConvertToKilometers = 1.60934;
-		return miles * kilometers;
+		const double kilometersPerMile = 1.60934;
+		return miles * kilometersPerMile;
 	}
 }
