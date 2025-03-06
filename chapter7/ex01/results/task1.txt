@@ -8,10 +8,10 @@ Reason:
        WriteLine("Email: csharpcompany@csharp.com");
        WriteLine("On the Web at www.csharpcompanyforyou.com");
    ` was found in the program.None
-Timestamp: 2025-03-06 03:24:06.911663
+Timestamp: 2025-03-06 03:35:25.674451
 
 Status: PASSED!
 Check: 3
 Test: Three instances of the contact information fields are present in the programs output
 Reason: None
-Timestamp: 2025-03-06 03:24:06.928865
+Timestamp: 2025-03-06 03:35:25.692113
