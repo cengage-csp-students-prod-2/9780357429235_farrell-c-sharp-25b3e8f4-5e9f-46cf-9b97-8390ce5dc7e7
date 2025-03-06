@@ -1,14 +1,12 @@
 
-Status: FAILED!
+Status: PASSED!
 Check: 1
 Test: Test`ConvertToKilometers` with 10 miles
-Reason: Unable to run tests.
-Error : str - AssertionError
-Timestamp: 2025-03-06 04:17:40.538683
+Reason: None
+Timestamp: 2025-03-06 04:21:27.078091
 
-Status: FAILED!
+Status: PASSED!
 Check: 2
 Test: Test`ConvertToKilometers` with 0 miles
-Reason: Unable to run tests.
-Error : str - AssertionError
-Timestamp: 2025-03-06 04:17:47.174787
+Reason: None
+Timestamp: 2025-03-06 04:21:34.551548
