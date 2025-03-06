@@ -1,0 +1,18 @@
+
+Status: FAILED!
+Check: 1
+Test: `DisplayContactInfo` contains contact info (>= 3 types of info)
+Reason: Unable to find '
+       WriteLine("C# Company");
+       WriteLine("Phone: 555-1234     Cell: 555-0912");
+       WriteLine("Email: csharpcompany@csharp.com");
+       WriteLine("On the Web at www.csharpcompanyforyou.com");
+   ' in the program.
+Error : str - AssertionError
+Timestamp: 2025-03-06 03:23:05.172786
+
+Status: PASSED!
+Check: 3
+Test: Three instances of the contact information fields are present in the programs output
+Reason: None
+Timestamp: 2025-03-06 03:23:05.190847
