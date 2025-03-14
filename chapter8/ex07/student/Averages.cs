@@ -9,7 +9,7 @@ class Averages
 		Average(7);
 		Average(7, 4, 2);
 		Average(7, 4, 2, 5, 9, 1, 3);
-		Averages(new double[] { 1.5, 5.6, 9.4, 3.8 });
+		Average(new double[] { 1.5, 5.6, 9.4, 3.8 });
 	}
 	public static void Average(params double[] numbers)
 	{
