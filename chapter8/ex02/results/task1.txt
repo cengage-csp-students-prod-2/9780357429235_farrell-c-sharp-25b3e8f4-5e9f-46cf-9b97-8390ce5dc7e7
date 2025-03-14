@@ -4,11 +4,11 @@ Check: 1
 Test: The `FillArray` method accepts integer input and returns the correct size.
 Reason: Unable to run tests.
 Error : str - AssertionError
-Timestamp: 2025-03-14 00:50:30.195871
+Timestamp: 2025-03-14 00:55:59.668824
 
 Status: FAILED!
 Check: 2
 Test: The `FillArray` method displays 'invalid' for invalid integer input.
 Reason: Unable to run tests.
 Error : str - AssertionError
-Timestamp: 2025-03-14 00:50:36.864466
+Timestamp: 2025-03-14 00:56:06.249417
