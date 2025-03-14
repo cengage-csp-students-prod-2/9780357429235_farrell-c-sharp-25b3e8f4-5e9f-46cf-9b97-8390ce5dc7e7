@@ -1,24 +1,12 @@
 
-Status: FAILED!
-Reason: Unable to run DebugEight1.cs
-Error: Cannot open assembly 'DebugEight1.exe': No such file or directory.
+Status: PASSED!
+Check: 1
+Test: Prompt for input and display total cost case 1
+Reason: None
+Timestamp: 2025-03-14 02:24:23.126019
 
-Timestamp: 2025-03-14 02:21:18.878307
-
-Status: FAILED!
-Reason: Unable to run DebugEight1.cs
-Error: Cannot open assembly 'DebugEight1.exe': No such file or directory.
-
-Timestamp: 2025-03-14 02:21:18.878397
-
-Status: FAILED!
-Reason: Unable to run DebugEight1.cs
-Error: Cannot open assembly 'DebugEight1.exe': No such file or directory.
-
-Timestamp: 2025-03-14 02:21:18.889883
-
-Status: FAILED!
-Reason: Unable to run DebugEight1.cs
-Error: Cannot open assembly 'DebugEight1.exe': No such file or directory.
-
-Timestamp: 2025-03-14 02:21:18.889924
+Status: PASSED!
+Check: 2
+Test: Prompt for input and display total cost case 2
+Reason: None
+Timestamp: 2025-03-14 02:24:23.147111
