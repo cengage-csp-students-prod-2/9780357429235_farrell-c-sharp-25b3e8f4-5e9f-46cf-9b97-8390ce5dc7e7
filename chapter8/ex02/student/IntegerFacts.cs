@@ -45,12 +45,12 @@ class IntegerFacts
 			}
 			else
 			{
-				WriteLine("That is a invalid input, please enter a valid input.");
+				WriteLine("invalid");
 			}
 		}
 		return count;
 	}
-	static void Statistics(int [] array, int value, out int max, out int min, out int sum, out double avg)
+	static void Statistics(int[] array, int value, out int max, out int min, out int sum, out double avg)
 	{
 	{
 		if (value == 0)
@@ -59,10 +59,10 @@ class IntegerFacts
 		return;
 		}
 	}
+
+	max = min = sum = array[0];
+
 	{
-		max = array[0];
-		min = array[0];
-		sum = array[0];
 		for (int x = 1; x < value; x++)
 		{
 			if (array[x] > max) max = array[x];
