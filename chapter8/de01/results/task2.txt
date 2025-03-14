@@ -1,0 +1,7 @@
+
+Status: FAILED!
+Check: 1
+Test: Method `GetData` prompts for and stores order number and quantity
+Reason: Unable to run tests.
+Error : str - AssertionError
+Timestamp: 2025-03-14 02:19:44.020077
