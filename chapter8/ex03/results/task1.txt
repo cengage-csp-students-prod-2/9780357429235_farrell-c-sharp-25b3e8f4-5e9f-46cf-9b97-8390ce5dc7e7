@@ -3,22 +3,22 @@ Status: PASSED!
 Check: 1
 Test: Overloaded `GetFlightInfo` method accepts a integer and returns a string containing the airport code, name, and time of flight. 
 Reason: None
-Timestamp: 2025-03-14 01:35:13.954737
+Timestamp: 2025-03-14 01:37:40.086402
 
 Status: PASSED!
 Check: 2
 Test: Overloaded `GetFlightInfo` method accepts a integer and returns a string containing the airport code, name, and time of flight. 
 Reason: None
-Timestamp: 2025-03-14 01:35:21.293551
+Timestamp: 2025-03-14 01:37:47.393650
 
 Status: PASSED!
 Check: 3
 Test: Overloaded `GetFlightInfo` method accepts a string and returns a string containing the airport code, name, and time of flight. 
 Reason: None
-Timestamp: 2025-03-14 01:35:28.641907
+Timestamp: 2025-03-14 01:37:54.808660
 
 Status: PASSED!
 Check: 4
 Test: Overloaded `GetFlightInfo` method accepts a string and returns a string containing the airport code, name, and time of flight. 
 Reason: None
-Timestamp: 2025-03-14 01:35:36.029686
+Timestamp: 2025-03-14 01:38:02.157742
