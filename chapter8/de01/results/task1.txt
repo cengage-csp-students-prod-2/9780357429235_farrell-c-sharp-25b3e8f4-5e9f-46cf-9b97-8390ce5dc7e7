@@ -3,10 +3,10 @@ Status: PASSED!
 Check: 1
 Test: Prompt for input and display total cost case 1
 Reason: None
-Timestamp: 2025-03-14 02:24:23.126019
+Timestamp: 2025-03-14 02:25:30.421618
 
 Status: PASSED!
 Check: 2
 Test: Prompt for input and display total cost case 2
 Reason: None
-Timestamp: 2025-03-14 02:24:23.147111
+Timestamp: 2025-03-14 02:25:30.442239
