@@ -3,76 +3,71 @@ using static System.Console;
 using System.Globalization;
 class IntegerFacts
 {
-    static void Main()
-    {
-        int[] numbers = new int[10];
-        int actualValues = FillArray(numbers);
-        if (actualValues > 0)
-        {
-            Statistics(numbers, actualValues, out int max, out int min, out int sum, out double avg);
-            WriteLine($"The array has {actualValues} values");
-            WriteLine($"The highest value is {max}");
-            WriteLine($"The lowest value is {min}");
-            WriteLine($"The sum of the values is {sum}");
-            WriteLine($"The average is {avg}");
+	static void Main()
+	{
+		int[] numbers = new int[10];
+		int actualValues = FillArray(numbers);
+		if (actualValues > 0)
+		{
+			Statistics(numbers, actualValues, out int max, out int min, out int sum, out double avg);
+			WriteLine($"\nThe array has {actualValues} values");
+			WriteLine($"The highest value is {max}");
+			WriteLine($"The lowest value is {min}");
+			WriteLine($"The sum of the values is {sum}");
+			WriteLine($"The average is {avg}");
 
-            Write("The inputs were ");
-            for (int x = 0; x < actualValues; x++)
-            {
-                Write(numbers[x]);
-                if (x < actualValues - 1) Write(", ");
-            }
-            WriteLine(", and 999");
-        }
-        else
-        {
-            WriteLine("No valid number was entered.");
-        }
-    }
-    static int FillArray(int[] array)
-    {
-        int count = 0;
+			Write("The inputs were ");
+			for (int x = 0; x < actualValues; x++)
+			{
+				Write(numbers[x]);
+				if (x < actualValues -1) Write(", ");
+			}
+			WriteLine(", and 999");
+		}
+		else
+		{
+			WriteLine("No valid number was entered.");
+		}
+	}
+	static int FillArray(int[] array)
+	{
+		int count = 0;
+		while (count < array.Length)
+		{
+			Write($"Enter a number or enter 999 to stop: ");
+			string input = ReadLine();
+			if (int.TryParse(input, out int number))
+			{
+				if (number == 999)
+				break;
 
-        while (count < array.Length)
-        {
-            Console.Write("Enter a number (or 999 to stop): ");
-            string input = Console.ReadLine();
+				array[count] = number;
+				count++;
+			}
+			else
+			{
+				WriteLine("invalid");
+			}
+		}
+		return count;
+	}
+	static void Statistics(int[] array, int value, out int max, out int min, out int sum, out double avg)
+	{
+		if (value == 0)	
+		{
+				max = min = sum = 0;
+				avg = 0.0;
+				return;
+		}
 
-            if (int.TryParse(input, out int number)) // If input is a valid integer
-            {
-                if (number == 999) // Stop input collection
-                    break;
+		max = min = sum = array[0];
 
-                array[count] = number; // Store number in array
-                count++;
-            }
-            else
-            {
-                Console.WriteLine("invalid"); // **IMPORTANT:** EXACT expected message
-            }
-        }
-        return count; // Correctly return number of valid inputs stored
-    }
-    static void Statistics(int[] array, int value, out int max, out int min, out int sum, out double avg)
-    {
-        if (value == 0) // Handle empty input case
-        {
-            max = min = sum = 0;
-            avg = 0.0;
-            return;
-        }
-
-        max = array[0]; // Set first valid value as reference
-        min = array[0];
-        sum = 0; // Start sum at 0
-
-        for (int i = 0; i < value; i++)
-        {
-            if (array[i] > max) max = array[i]; // Find max
-            if (array[i] < min) min = array[i]; // Find min
-            sum += array[i]; // Calculate sum
-        }
-
-        avg = (double)sum / value; // Ensure floating-point division
-    }
+			for (int x = 1; x < value; x++)
+			{
+				if (array[x] > max) max = array[x];
+				if (array[x] < min) min = array[x];
+				sum += array[x];
+			}
+			avg = (double)sum / value;
+	}
 }
