@@ -61,7 +61,6 @@ class IntegerFacts
 
 		max = min = sum = array[0];
 
-		{
 			for (int x = 1; x < value; x++)
 			{
 				if (array[x] > max) max = array[x];
@@ -69,6 +68,5 @@ class IntegerFacts
 				sum += array[x];
 			}
 			avg = (double)sum / value;
-		}
 	}
 }
