@@ -4,11 +4,11 @@ Check: 1
 Test: The `Statistics` method correctly sets variable values.
 Reason: Unable to run tests.
 Error : str - AssertionError
-Timestamp: 2025-03-14 00:45:23.920231
+Timestamp: 2025-03-14 00:50:43.462243
 
 Status: FAILED!
 Check: 2
 Test: The `Statistics` method correctly calculates array statistics.
 Reason: Unable to run tests.
 Error : str - AssertionError
-Timestamp: 2025-03-14 00:45:30.406101
+Timestamp: 2025-03-14 00:50:50.016551
