@@ -19,7 +19,7 @@ class DebugEight1
    }
    public static void GetData(out int order, out int amount)
    {
-       String s1, s2;
+       string s1, s2;
        Write("Enter order number ");
        s1 = ReadLine();
        Write("Enter quantity ");
