@@ -11,7 +11,7 @@ class DebugEight1
       int orderNum, quantity;
       double total;
       const double PRICE_EACH = 3.99;
-      GetData(orderNum, quantity);
+      GetData(out orderNum, out quantity);
       total = quantity * PRICE_EACH;
       WriteLine("Order #{0}. Quantity ordered = {1}",
           orderNum, quantity);
