@@ -1,21 +1,18 @@
 
-Status: FAILED!
+Status: PASSED!
 Check: 1
 Test: Method `Average` can average two numbers
-Reason: Unable to run tests.
-Error : str - AssertionError
-Timestamp: 2025-03-14 02:05:58.246798
+Reason: None
+Timestamp: 2025-03-14 02:08:19.742694
 
-Status: FAILED!
+Status: PASSED!
 Check: 2
 Test: Method `Average` can average three numbers
-Reason: Unable to run tests.
-Error : str - AssertionError
-Timestamp: 2025-03-14 02:06:04.796278
+Reason: None
+Timestamp: 2025-03-14 02:08:27.197588
 
-Status: FAILED!
+Status: PASSED!
 Check: 3
 Test: Method `Average` can average an array of numbers
-Reason: Unable to run tests.
-Error : str - AssertionError
-Timestamp: 2025-03-14 02:06:11.435381
+Reason: None
+Timestamp: 2025-03-14 02:08:34.736114
