@@ -1,0 +1,26 @@
+
+Status: FAILED!
+Check: 1
+Test: Overloaded `GetFlightInfo` method accepts a integer and returns a string containing the airport code, name, and time of flight. 
+Reason: Assert.AreEqual failed. Expected:<Flight #321 CRP Corpus Christi Scheduled at: 0830>. Actual:<Flight #321 CRP Corpus Christi  Scheduled at: 0830>.
+Error : str - AssertionError
+Timestamp: 2025-03-14 01:30:12.159240
+
+Status: PASSED!
+Check: 2
+Test: Overloaded `GetFlightInfo` method accepts a integer and returns a string containing the airport code, name, and time of flight. 
+Reason: None
+Timestamp: 2025-03-14 01:30:19.621438
+
+Status: FAILED!
+Check: 3
+Test: Overloaded `GetFlightInfo` method accepts a string and returns a string containing the airport code, name, and time of flight. 
+Reason: Assert.AreEqual failed. Expected:<Flight #510 DFW Dallas Fort Worth Scheduled at: 0915>. Actual:<Flight #510 DFW Dallas Fort Worth  Scheduled at: 0915>.
+Error : str - AssertionError
+Timestamp: 2025-03-14 01:30:27.230402
+
+Status: PASSED!
+Check: 4
+Test: Overloaded `GetFlightInfo` method accepts a string and returns a string containing the airport code, name, and time of flight. 
+Reason: None
+Timestamp: 2025-03-14 01:30:34.699818
