@@ -29,7 +29,7 @@ class Flights
       {
          if (flightNumbers[x] == flight)
          {
-            return $"Flight #{flight} {codes[x]} {names[x]}  Scheduled at: {times[x]}";
+            return $"Flight #{flight} {codes[x]} {names[x]} Scheduled at: {times[x]}";
          }
       }
       return $"Flight #{flight} was not found";
@@ -41,7 +41,7 @@ class Flights
       {
          if (codes[x] == code)
          {
-            return $"Flight #{flightNumbers[x]} {codes[x]} {names[x]}  Scheduled at: {times[x]}";
+            return $"Flight #{flightNumbers[x]} {codes[x]} {names[x]} Scheduled at: {times[x]}";
          }
       }
       return $"Flight to {code} was not found";
