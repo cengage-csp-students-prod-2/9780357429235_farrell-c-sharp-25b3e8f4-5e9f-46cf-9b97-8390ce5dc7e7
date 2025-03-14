@@ -52,24 +52,23 @@ class IntegerFacts
 	}
 	static void Statistics(int[] array, int value, out int max, out int min, out int sum, out double avg)
 	{
-	{
-		if (value == 0)
-		{max = min = sum = 0;
-		avg = 0;
-		return;
-		}
-	}
-
-	max = min = sum = array[0];
-
-	{
-		for (int x = 1; x < value; x++)
+		if (value == 0)	
 		{
-			if (array[x] > max) max = array[x];
-			if (array[x] < min) min = array[x];
-			sum += array[x];
+				max = min = sum = 0;
+				avg = 0;
+				return;
 		}
-		avg = (double)sum / value;
-	}
+
+		max = min = sum = array[0];
+
+		{
+			for (int x = 1; x < value; x++)
+			{
+				if (array[x] > max) max = array[x];
+				if (array[x] < min) min = array[x];
+				sum += array[x];
+			}
+			avg = (double)sum / value;
+		}
 	}
 }
