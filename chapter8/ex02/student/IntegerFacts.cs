@@ -32,7 +32,7 @@ class IntegerFacts
 	static int FillArray(int[] array)
 	{
 		int count = 0;
-		while (count <array.Length)
+		while (count < array.Length)
 		{
 			Write($"Enter a number or enter 999 to stop: ");
 			string input = ReadLine();
@@ -52,6 +52,14 @@ class IntegerFacts
 	}
 	static void Statistics(int [] array, int value, out int max, out int min, out int sum, out double avg)
 	{
+	{
+		if (value == 0)
+		{max = min = sum = 0;
+		avg = 0;
+		return;
+		}
+	}
+	{
 		max = array[0];
 		min = array[0];
 		sum = array[0];
@@ -62,5 +70,6 @@ class IntegerFacts
 			sum += array[x];
 		}
 		avg = (double)sum / value;
+	}
 	}
 }
