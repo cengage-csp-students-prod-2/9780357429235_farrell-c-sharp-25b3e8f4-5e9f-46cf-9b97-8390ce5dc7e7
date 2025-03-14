@@ -1,12 +1,6 @@
 
-Status: FAILED!
-Reason: Unable to run IntegerFacts.cs
-Error: Cannot open assembly 'IntegerFacts.exe': No such file or directory.
-
-Timestamp: 2025-03-14 00:41:47.737711
-
-Status: FAILED!
-Reason: Unable to run IntegerFacts.cs
-Error: Cannot open assembly 'IntegerFacts.exe': No such file or directory.
-
-Timestamp: 2025-03-14 00:41:47.737779
+Status: PASSED!
+Check: 1
+Test: The `IntegerFacts` program accepts user input and displays the correct output.
+Reason: None
+Timestamp: 2025-03-14 00:43:35.375218
